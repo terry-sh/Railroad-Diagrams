@@ -3,7 +3,7 @@ import Diagram from "@/diagrams/Diagram"
 
 import Path from "@/Path"
 import { determineGaps } from "@/utils"
-import Config from "config";
+import Config from "config"
 
 export default class Comment extends TextLeafNode {
   needsSpace: boolean = true

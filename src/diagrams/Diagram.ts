@@ -19,12 +19,12 @@ export default class Diagram extends ComplexContainerNode {
 
     this.up = this.down = this.height = this.width = 0
     for (let i = 0; i < this.items.length; i++) {
-      let item = this.items[i];
+      let item = this.items[i]
       this.width += item.width + ((item as any).needsSpace ? 20 : 0)
 
-      this.up = Math.max(this.up, item.up - this.height);
-      this.height += item.height;
-      this.down = Math.max(this.down - item.height, item.down);
+      this.up = Math.max(this.up, item.up - this.height)
+      this.height += item.height
+      this.down = Math.max(this.down - item.height, item.down)
     }
 
     this.formatted = false

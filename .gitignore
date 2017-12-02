@@ -60,5 +60,6 @@ typings/
 
 # Temp files
 .DS_Store
+*.tmp
 dist/
 examples/*/*.svg

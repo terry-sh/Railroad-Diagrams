@@ -44,9 +44,9 @@ class MultipleChoice extends ComplexContainerNode {
         minimum = Config.arcRadius
       }
       if (i < normal) {
-        this.up += Math.max(minimum, item.height + item.down + Config.verticalSeparation + this.items[i + 1].up);
+        this.up += Math.max(minimum, item.height + item.down + Config.verticalSeparation + this.items[i + 1].up)
       } else if (i > normal) {
-        this.down += Math.max(minimum, item.up + Config.verticalSeparation + this.items[i - 1].down + this.items[i - 1].height);
+        this.down += Math.max(minimum, item.up + Config.verticalSeparation + this.items[i - 1].down + this.items[i - 1].height)
       }
     }
     this.down -= this.items[normal].height; // already counted in this.height
