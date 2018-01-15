@@ -18,6 +18,8 @@
     "removeComments": true,
     "target": "es5",
     "baseUrl": "./src/",
+    "declaration": true,
+    "declarationDir": "@types",
     "paths": {
       "@/*": ["./*"],
       "*": ["*"]

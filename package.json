@@ -1,0 +1,24 @@
+{
+  "name": "railroad-diagrams",
+  "version": "0.0.0",
+  "description": "A Typescript rewrite of `tabatkins`'s railroad-digrams. See: [railroad-diagrams](https://github.com/tabatkins/railroad-diagrams)",
+  "author": "o-jules",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-jules/Railroad-Diagrams.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-jules/Railroad-Diagrams/issues"
+  },
+  "homepage": "https://github.com/o-jules/Railroad-Diagrams#readme",
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
