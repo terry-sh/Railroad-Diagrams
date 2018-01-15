@@ -1,5 +1,5 @@
-import { AbstractNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
+import { AbstractNode } from "Node"
+import Diagram from "diagrams/Diagram"
 import Config from "config"
 
 export default class Path extends AbstractNode {

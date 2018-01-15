@@ -1,9 +1,9 @@
-import SvgNode, { ComplexContainerNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Path from "@/Path"
+import SvgNode, { ComplexContainerNode } from "Node"
+import Diagram from "diagrams/Diagram"
+import Path from "Path"
 import Config from "config"
 
-import { wrapString, determineGaps } from "@/utils"
+import { wrapString, determineGaps } from "utils"
 
 export default class Sequence extends ComplexContainerNode {
   needsSpace: boolean

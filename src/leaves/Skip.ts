@@ -1,7 +1,7 @@
-import { LeafNode } from "@/Node"
-import Path from "@/Path"
-import Diagram from "@/diagrams/Diagram"
-import { unnull, wrapString } from "@/utils"
+import { LeafNode } from "Node"
+import Path from "Path"
+import Diagram from "diagrams/Diagram"
+import { unnull, wrapString } from "utils"
 import Config from "config"
 
 export default class Skip extends LeafNode {

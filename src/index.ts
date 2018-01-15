@@ -1,22 +1,22 @@
 // diagrams
-import Diagram from "@/diagrams/Diagram"
-import ComplexDiagram from "@/diagrams/ComplexDiagram"
+import Diagram from "diagrams/Diagram"
+import ComplexDiagram from "diagrams/ComplexDiagram"
 
 // containers
-import Sequence from "@/containers/Sequence"
-import Stack from "@/containers/Stack"
-import OptionalSequence from "@/containers/OptionalSequence"
-import Choice from "@/containers/Choice"
-import MultipleChoice from "@/containers/MultipleChoice"
-import Optional from "@/containers/Optional"
-import OneOrMore from "@/containers/OneOrMore"
-import ZeroOrMore from "@/containers/ZeroOrMore"
+import Sequence from "containers/Sequence"
+import Stack from "containers/Stack"
+import OptionalSequence from "containers/OptionalSequence"
+import Choice from "containers/Choice"
+import MultipleChoice from "containers/MultipleChoice"
+import Optional from "containers/Optional"
+import OneOrMore from "containers/OneOrMore"
+import ZeroOrMore from "containers/ZeroOrMore"
 
 // leaves
-import Terminal from "@/leaves/Terminal"
-import NonTerminal from "@/leaves/NonTerminal"
-import Comment from "@/leaves/Comment"
-import Skip from "@/leaves/Skip"
+import Terminal from "leaves/Terminal"
+import NonTerminal from "leaves/NonTerminal"
+import Comment from "leaves/Comment"
+import Skip from "leaves/Skip"
 
 /** export */
 declare var define: any

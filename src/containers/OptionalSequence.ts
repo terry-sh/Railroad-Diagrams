@@ -1,10 +1,10 @@
-import SvgNode from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Path from "@/Path"
-import Sequence from "@/containers/Sequence"
+import SvgNode from "Node"
+import Diagram from "diagrams/Diagram"
+import Path from "Path"
+import Sequence from "containers/Sequence"
 import Config from "config"
 
-import { determineGaps, sum, wrapString } from "@/utils"
+import { determineGaps, sum, wrapString } from "utils"
 
 export default class OptionalSequence extends Sequence {
   isOptional: boolean

@@ -1,7 +1,7 @@
-import SvgNode, { TextLeafNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Path from "@/Path"
-import { determineGaps } from "@/utils"
+import SvgNode, { TextLeafNode } from "Node"
+import Diagram from "diagrams/Diagram"
+import Path from "Path"
+import { determineGaps } from "utils"
 import Config from "config"
 
 export default class NonTerminal extends TextLeafNode {

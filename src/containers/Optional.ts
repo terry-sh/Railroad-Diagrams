@@ -1,6 +1,6 @@
-import Choice from "@/containers/Choice"
-import Skip from "@/leaves/Skip"
-import SvgNode from "@/Node"
+import Choice from "containers/Choice"
+import Skip from "leaves/Skip"
+import SvgNode from "Node"
 
 export default class Optional extends Choice {
 

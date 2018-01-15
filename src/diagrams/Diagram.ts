@@ -1,8 +1,8 @@
-import { unnull, wrapString } from "@/utils"
-import SvgNode, { ComplexContainerNode } from "@/Node"
-import Path from "@/Path"
-import Start from "@/leaves/Start"
-import End from "@/leaves/End"
+import { unnull, wrapString } from "utils"
+import SvgNode, { ComplexContainerNode } from "Node"
+import Path from "Path"
+import Start from "leaves/Start"
+import End from "leaves/End"
 import Config from "config"
 
 export default class Diagram extends ComplexContainerNode {

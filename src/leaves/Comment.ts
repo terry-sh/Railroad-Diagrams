@@ -1,8 +1,8 @@
-import SvgNode, { TextLeafNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
+import SvgNode, { TextLeafNode } from "Node"
+import Diagram from "diagrams/Diagram"
 
-import Path from "@/Path"
-import { determineGaps } from "@/utils"
+import Path from "Path"
+import { determineGaps } from "utils"
 import Config from "config"
 
 export default class Comment extends TextLeafNode {

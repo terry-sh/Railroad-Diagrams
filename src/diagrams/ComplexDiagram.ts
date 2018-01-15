@@ -1,7 +1,7 @@
-import Diagram from "@/diagrams/Diagram"
-import Start from "@/leaves/Start"
-import End from "@/leaves/End"
-import SvgNode from "Node";
+import Diagram from "diagrams/Diagram"
+import Start from "leaves/Start"
+import End from "leaves/End"
+import SvgNode from "Node"
 
 export default class ComplexDiagram extends Diagram {
   

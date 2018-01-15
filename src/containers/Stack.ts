@@ -1,9 +1,9 @@
-import SvgNode, { ComplexContainerNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
+import SvgNode, { ComplexContainerNode } from "de"
+import Diagram from "agrams/Diagram"
 import Path from "Path"
 import Config from "config"
 
-import { wrapString, determineGaps } from "@/utils"
+import { wrapString, determineGaps } from "ils"
 
 export default class Stack extends ComplexContainerNode {
   needsSpace: boolean

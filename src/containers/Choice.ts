@@ -1,9 +1,9 @@
-import { unnull, wrapString, determineGaps } from "@/utils"
-import SvgNode, { ComplexContainerNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Path from "@/Path"
-import Start from "@/leaves/Start"
-import End from "@/leaves/End"
+import { unnull, wrapString, determineGaps } from "utils"
+import SvgNode, { ComplexContainerNode } from "Node"
+import Diagram from "diagrams/Diagram"
+import Path from "Path"
+import Start from "leaves/Start"
+import End from "leaves/End"
 import Config from "config"
 
 export default class Choice extends ComplexContainerNode {

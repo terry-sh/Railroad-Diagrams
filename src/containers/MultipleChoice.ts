@@ -1,11 +1,11 @@
-import { unnull, wrapString } from "@/utils"
-import SvgNode, { ComplexContainerNode } from "@/Node"
-import Path from "@/Path"
-import Diagram from "@/diagrams/Diagram"
-import { determineGaps, max } from "@/utils"
-import Config from "@/config"
+import { unnull, wrapString } from "utils"
+import SvgNode, { ComplexContainerNode } from "Node"
+import Path from "Path"
+import Diagram from "diagrams/Diagram"
+import { determineGaps, max } from "utils"
+import Config from "config"
 
-class MultipleChoice extends ComplexContainerNode {
+export default class MultipleChoice extends ComplexContainerNode {
   innerWidth: number
   normal: number
   type: string

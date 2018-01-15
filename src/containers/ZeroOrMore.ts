@@ -1,6 +1,6 @@
-import Optional from "@/containers/Optional"
-import OneOrMore from "@/containers/OneOrMore"
-import SvgNode from "@/Node"
+import Optional from "containers/Optional"
+import OneOrMore from "containers/OneOrMore"
+import SvgNode from "Node"
 
 class ZeroOrMore extends Optional {
 

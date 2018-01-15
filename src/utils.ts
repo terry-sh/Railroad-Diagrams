@@ -1,5 +1,5 @@
-import Terminal from "@/leaves/Terminal"
-import SvgNode, { Attributes } from "@/Node"
+import Terminal from "leaves/Terminal"
+import SvgNode, { Attributes } from "Node"
 import Config from "config"
 
 export function unnull(...args): any {

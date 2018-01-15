@@ -1,10 +1,10 @@
-import SvgNode, { ContainerNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Skip from "@/leaves/Skip"
-import Path from "@/Path"
-import Config from "@/config"
+import SvgNode, { ContainerNode } from "Node"
+import Diagram from "diagrams/Diagram"
+import Skip from "leaves/Skip"
+import Path from "Path"
+import Config from "config"
 
-import { determineGaps, wrapString } from "@/utils"
+import { determineGaps, wrapString } from "utils"
 
 export default class OneOrMore extends ContainerNode {
   item: SvgNode

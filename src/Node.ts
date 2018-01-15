@@ -2,7 +2,7 @@ import {
   unnull,
   escapeString,
   SVG
-} from "@/utils"
+} from "utils"
 
 export type Attributes = {
   d?: any

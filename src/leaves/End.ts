@@ -1,6 +1,6 @@
-import { LeafNode } from "@/Node"
-import Diagram from "@/diagrams/Diagram"
-import Path from "@/Path"
+import { LeafNode } from "Node"
+import Diagram from "diagrams/Diagram"
+import Path from "Path"
 import Config from "config"
 
 export default class End extends LeafNode {
