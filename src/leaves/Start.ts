@@ -15,7 +15,7 @@ export default class Start extends LeafNode {
     this.down = 10
     this.type = type || "simple"
 
-    if(Config.isDebug) {
+    if (Config.isDebug) {
       this.attrs["data-updown"] = this.up + " " + this.height + " " + this.down
       this.attrs["data-type"] = "start"
     }

@@ -5,7 +5,7 @@ import SvgNode from "Node"
 class ZeroOrMore extends Optional {
 
   constructor(item: SvgNode, rep: SvgNode, skip?: string) {
-		super(new OneOrMore(item, rep), skip)
+    super(new OneOrMore(item, rep), skip)
   }
-  
+
 }

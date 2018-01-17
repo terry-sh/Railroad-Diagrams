@@ -1,20 +1,19 @@
+export const DEFAULT_CLASSNAME = "railroad-diagram"
 
-export default class Config {
-
-  static isDebug: boolean = true
-
-  static verticalSeparation: number = 8
-
-  static arcRadius: number = 10
-
-  static diagramClass: string = "railroad-diagram"
-
-  static strokeOddPixelLength: boolean = true
-
-  static internalAlignment: string = "center"
-
-  static get arcDiameter(): number {
+export class Config {
+  get arcDiameter(): number {
     return this.arcRadius * 2
   }
 
+  constructor(
+    public isDebug: boolean,
+    public verticalSeparation: number,
+    public arcRadius: number,
+    public diagramClass: string,
+    public strokeOddPixelLength: boolean,
+    public internalAlignment: "center" | "left" | "right",
+  ) { }
+
 }
+
+export default new Config(true, 8, 10, DEFAULT_CLASSNAME, true, "center")

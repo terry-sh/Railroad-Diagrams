@@ -16,7 +16,7 @@ export default class Path extends AbstractNode {
   }
 
   h(val: number): Path {
-    this.attrs.d += "h"+val;
+    this.attrs.d += "h" + val
     return this
   }
 
@@ -44,17 +44,17 @@ export default class Path extends AbstractNode {
   arc(sweep): Path {
     let x = Config.arcRadius
     let y = Config.arcRadius
-  
-    if(sweep[0] === "e" || sweep[1] === "w") {
+
+    if (sweep[0] === "e" || sweep[1] === "w") {
       x *= -1
     }
 
-    if(sweep[0] === "s" || sweep[1] === "n") {
+    if (sweep[0] === "s" || sweep[1] === "n") {
       y *= -1
     }
 
     let cw: number
-    if(sweep === "ne" || sweep === "es" || sweep === "sw" || sweep === "wn") {
+    if (sweep === "ne" || sweep === "es" || sweep === "sw" || sweep === "wn") {
       cw = 1
     } else {
       cw = 0

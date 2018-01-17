@@ -22,7 +22,7 @@ import Skip from "leaves/Skip"
 declare var define: any
 declare var exports: any
 
-(function() {
+(function () {
   let root: any
   if (typeof define === "function" && define.amd) {
     // AMD. Register as an anonymous module.
@@ -37,7 +37,7 @@ declare var exports: any
     // Browser globals (root is window)
     root = this
   }
-  
+
   /*
   These are the names that the internal classes are exported as.
   If you would like different names, adjust them here.

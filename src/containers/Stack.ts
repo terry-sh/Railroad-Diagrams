@@ -1,9 +1,9 @@
-import SvgNode, { ComplexContainerNode } from "de"
-import Diagram from "agrams/Diagram"
+import SvgNode, { ComplexContainerNode } from "Node"
+import Diagram from "diagrams/Diagram"
 import Path from "Path"
 import Config from "config"
 
-import { wrapString, determineGaps } from "ils"
+import { wrapString, determineGaps } from "utils"
 
 export default class Stack extends ComplexContainerNode {
   needsSpace: boolean
@@ -12,7 +12,7 @@ export default class Stack extends ComplexContainerNode {
     super("g")
 
     if (items.length === 0) {
-      throw new RangeError("Stack() must have at least one child.");
+      throw new RangeError("Stack() must have at least one child.")
     }
 
     this.items = items.map(wrapString)

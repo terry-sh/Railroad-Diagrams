@@ -49,9 +49,9 @@ export default class NonTerminal extends TextLeafNode {
         "xlink:href": this.href
       }, [text]).addTo(this)
     } else {
-      text.addTo(this)      
+      text.addTo(this)
     }
-  
+
     return this
   }
 }

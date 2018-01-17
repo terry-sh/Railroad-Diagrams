@@ -105,7 +105,7 @@ export class ComplexContainerNode extends ContainerNode {
 /**
  * @class Leaf class
  */
-export class LeafNode extends SvgNode {}
+export class LeafNode extends SvgNode { }
 
 export class TextLeafNode extends LeafNode {
   text: string
